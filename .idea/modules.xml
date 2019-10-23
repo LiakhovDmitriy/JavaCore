@@ -2,11 +2,33 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/LessonFirst/Exercise1OnLesson/Ex1.iml" filepath="$PROJECT_DIR$/LessonFirst/Exercise1OnLesson/Ex1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LessonFirst/Exercise1HW1/Exercise1HW1.iml" filepath="$PROJECT_DIR$/LessonFirst/Exercise1HW1/Exercise1HW1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LessonFirst/Exercise1HW2/Exercise1HW2.iml" filepath="$PROJECT_DIR$/LessonFirst/Exercise1HW2/Exercise1HW2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LessonFirst/Exercise1OnLesson/Exercise1OnLesson.iml" filepath="$PROJECT_DIR$/LessonFirst/Exercise1OnLesson/Exercise1OnLesson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson1/Exercise1OnLesson/Ex1.iml" filepath="$PROJECT_DIR$/Lesson1/Exercise1OnLesson/Ex1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson1/Exercise1OnLesson/Exercise1OnLesson.iml" filepath="$PROJECT_DIR$/Lesson1/Exercise1OnLesson/Exercise1OnLesson.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaCore.iml" filepath="$PROJECT_DIR$/.idea/JavaCore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson1Ex1H1/Lesson1Ex1H1.iml" filepath="$PROJECT_DIR$/Lesson1Ex1H1/Lesson1Ex1H1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson1Ex1Hw1/Lesson1Ex1Hw1.iml" filepath="$PROJECT_DIR$/Lesson1Ex1Hw1/Lesson1Ex1Hw1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson1Ex1Hw2/Lesson1Ex1Hw2.iml" filepath="$PROJECT_DIR$/Lesson1Ex1Hw2/Lesson1Ex1Hw2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson1Ex1Hw3/Lesson1Ex1Hw3.iml" filepath="$PROJECT_DIR$/Lesson1Ex1Hw3/Lesson1Ex1Hw3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson1Ex1Hw4/Lesson1Ex1Hw4.iml" filepath="$PROJECT_DIR$/Lesson1Ex1Hw4/Lesson1Ex1Hw4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson2Ex1H1/Lesson2Ex1H1.iml" filepath="$PROJECT_DIR$/Lesson2Ex1H1/Lesson2Ex1H1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson2Ex1Hw1/Lesson2Ex1Hw1.iml" filepath="$PROJECT_DIR$/Lesson2Ex1Hw1/Lesson2Ex1Hw1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson2Ex1Hw2/Lesson2Ex1Hw2.iml" filepath="$PROJECT_DIR$/Lesson2Ex1Hw2/Lesson2Ex1Hw2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson2Ex1Hw3/Lesson2Ex1Hw3.iml" filepath="$PROJECT_DIR$/Lesson2Ex1Hw3/Lesson2Ex1Hw3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson2Ex1Hw4/Lesson2Ex1Hw4.iml" filepath="$PROJECT_DIR$/Lesson2Ex1Hw4/Lesson2Ex1Hw4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson3Ex1H1/Lesson3Ex1H1.iml" filepath="$PROJECT_DIR$/Lesson3Ex1H1/Lesson3Ex1H1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson3Ex1Hw1/Lesson3Ex1Hw1.iml" filepath="$PROJECT_DIR$/Lesson3Ex1Hw1/Lesson3Ex1Hw1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson3Ex1Hw2/Lesson3Ex1Hw2.iml" filepath="$PROJECT_DIR$/Lesson3Ex1Hw2/Lesson3Ex1Hw2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson3Ex1Hw3/Lesson3Ex1Hw3.iml" filepath="$PROJECT_DIR$/Lesson3Ex1Hw3/Lesson3Ex1Hw3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson4Ex1Hw1/Lesson4Ex1Hw1.iml" filepath="$PROJECT_DIR$/Lesson4Ex1Hw1/Lesson4Ex1Hw1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson4Ex1Hw2/Lesson4Ex1Hw2.iml" filepath="$PROJECT_DIR$/Lesson4Ex1Hw2/Lesson4Ex1Hw2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson4Ex1Hw3/Lesson4Ex1Hw3.iml" filepath="$PROJECT_DIR$/Lesson4Ex1Hw3/Lesson4Ex1Hw3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson4Ex1Hw4/Lesson4Ex1Hw4.iml" filepath="$PROJECT_DIR$/Lesson4Ex1Hw4/Lesson4Ex1Hw4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson5Ex1H1/Lesson5Ex1H1.iml" filepath="$PROJECT_DIR$/Lesson5Ex1H1/Lesson5Ex1H1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson5Ex1Hw1/Lesson5Ex1Hw1.iml" filepath="$PROJECT_DIR$/Lesson5Ex1Hw1/Lesson5Ex1Hw1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson5Ex1Hw2/Lesson5Ex1Hw2.iml" filepath="$PROJECT_DIR$/Lesson5Ex1Hw2/Lesson5Ex1Hw2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson5Ex1Hw3/Lesson5Ex1Hw3.iml" filepath="$PROJECT_DIR$/Lesson5Ex1Hw3/Lesson5Ex1Hw3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson5Ex1Hw4/Lesson5Ex1Hw4.iml" filepath="$PROJECT_DIR$/Lesson5Ex1Hw4/Lesson5Ex1Hw4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson6Ex1H1/Lesson6Ex1H1.iml" filepath="$PROJECT_DIR$/Lesson6Ex1H1/Lesson6Ex1H1.iml" />
     </modules>
   </component>
 </project>

@@ -10,17 +10,9 @@ public class Triangle {
         this.site3 = site3;
     }
 
-    public double sqr(double site1, double site2, double site3) {
-        double p = (site1 + site2 + site3) / 2.0;
-        double sqr = Math.sqrt(p * (p - site1) * (p - site2) * (p - site3));
-        return sqr;
-    }
-
-
     public Triangle() {
         super();
     }
-
 
     public double getSite1() {
         return site1;
@@ -44,6 +36,12 @@ public class Triangle {
 
     public void setSite3(double site3) {
         this.site3 = site3;
+    }
+
+    public double sqr(double site1, double site2, double site3) {
+        double p = (site1 + site2 + site3) / 2.0;
+        double sqr = Math.sqrt(p * (p - site1) * (p - site2) * (p - site3));
+        return sqr;
     }
 
     @Override
