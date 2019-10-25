@@ -6,7 +6,8 @@ public class Circle extends Shape {
         this.a = a;
         this.r = r;
     }
-    public Circle(){
+
+    public Circle() {
         super();
     }
 
@@ -25,14 +26,17 @@ public class Circle extends Shape {
     public void setR(Point r) {
         this.r = r;
     }
+
     @Override
     public double getPerimetr() {
-        return 0;
+        double per = Math.PI * 2 * this.r.getDistance(a);
+        return per;
     }
 
     @Override
     public double getArea() {
-        return 0;
+        double ar = Math.PI * (2 * this.r.getDistance(a)) * (2 * this.r.getDistance(a));
+        return ar;
     }
 
 

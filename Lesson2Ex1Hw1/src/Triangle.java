@@ -38,15 +38,22 @@ public class Triangle extends Shape {
     }
 
     public boolean chekerTriangl() {
-        if (a.getDistance(b) + b.getDistance(c) > c.getDistance(a) && b.getDistance(c) + c.getDistance(a) > a.getDistance(b) && c.getDistance(a) + a.getDistance(b) > b.getDistance(c)) {
+        double a1 = a.getDistance(b);
+        double b1 = b.getDistance(c);
+        double c1 = c.getDistance(a);
+        if (a1 + b1 > c1 && b1 + c1 > a1 && c1 + a1 > b1) {
             return true;
-        } else return false;
+        }
+        return false;
     }
 
     @Override
     public double getPerimetr() {
+        double a1 = a.getDistance(b);
+        double b1 = b.getDistance(c);
+        double c1 = c.getDistance(a);
         if (chekerTriangl() == true) {
-            double per = a.getDistance(b) + b.getDistance(c) + c.getDistance(a);
+            double per = a1 + b1 + c1;
             return per;
         } else System.out.println("Your triangle is bullshit");
         return 0;
@@ -54,9 +61,12 @@ public class Triangle extends Shape {
 
     @Override
     public double getArea() {
+        double a1 = a.getDistance(b);
+        double b1 = b.getDistance(c);
+        double c1 = c.getDistance(a);
         if (chekerTriangl() == true) {
             double polP = getPerimetr() / 2.0;
-            double sqr = 1 / 4.0 * Math.sqrt((a.getDistance(b) + b.getDistance(c) + c.getDistance(a)) * (b.getDistance(c) + c.getDistance(a) - a.getDistance(b)) * (c.getDistance(a) + a.getDistance(b) - b.getDistance(c)));
+            double sqr = 0.25 * Math.sqrt((a1 + b1 + c1) * (b1 + c1 - a1) * (c1 + a1 - b1));
             return sqr;
         } else System.out.println("Your triangle is bullshit!!!!!!!!!!");
         return 0;
