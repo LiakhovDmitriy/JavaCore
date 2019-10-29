@@ -1,4 +1,8 @@
-public class GroupOfStudents {
+import java.util.Scanner;
+
+import java.util.Arrays;
+
+public class GroupOfStudents implements Voenkom {
     Student[] groupArr = new Student[10];
     private String groupName;
 
@@ -50,11 +54,13 @@ public class GroupOfStudents {
 
     public boolean deleteStudentOnGroup(String lastName) {
         for (int i = 0; i < 10; i++) {
-            String time = groupArr[i].getLastName();
-            if (groupArr[i] != null && time == lastName.intern() == true) {
-                groupArr[i] = null;
-                System.out.println("Student was delete");
-                return true;
+            if (groupArr[i] != null) {
+                String time = groupArr[i].getLastName();
+                if (groupArr[i] != null && time.equalsIgnoreCase(lastName)) {
+                    groupArr[i] = null;
+                    System.out.println("Student was delete");
+                    return true;
+                }
             }
         }
         return false;
@@ -94,12 +100,84 @@ public class GroupOfStudents {
         return a.getLastName().compareTo(b.getLastName());
     }
 
+    public int count() {
+        int number = 0;
+        for (int i = 0; groupArr.length > i; i++) {
+            if (groupArr[i] == null) {
+                number +=1;
+                return number;
+            }
+        }
+        return number;
+    }
+
+    public void interactivAdding() {
+        Scanner sc = new Scanner(System.in);
+        String st;
+        int intagers;
+        boolean bool;
+
+        for (int i = 0; groupArr.length > i; i++) {
+            Student time = new Student();
+            if (groupArr[i] == null) {
+                System.out.println("Enter First name");
+                st = sc.next();
+                time.setName(st);
+                System.out.println("Enter Last name");
+                st = sc.next();
+                time.setLastName(st);
+                System.out.println("Enter sex \"true\" - boy, \"false\" - girl");
+                st = sc.next();
+                if (st.equals("true")) {
+                    bool = true;
+                } else bool = false;
+                time.setSex(bool);
+                System.out.println("Enter age");
+                intagers = sc.nextInt();
+                time.setAge(intagers);
+                System.out.println("Enter score book");
+                intagers = sc.nextInt();
+                time.setScoreBook(intagers);
+                time.setNameOfTheGroup(this.groupName);
+                try {
+                    aggStudentToGroup(time);
+                } catch (MyPersonExeptions f) {
+                    f.getMessage();
+                }
+                return;
+            }
+        }
+    }
+
+    public void sortByParametr(int i) {
+        Arrays.sort(this.groupArr, new StudentComparator( i));
+    }
+
+    public void sortByParametr(int i, boolean forward) {
+        Arrays.sort(this.groupArr, new StudentComparator(i, forward));
+    }
+    public Student[] getRecruiters() {
+        int n = 0;
+        for (Student student : groupArr) {
+            if (student != null && student.isSex() && student.getAge() >= 18) {
+                n += 1;
+            }
+        }
+        Student[] recruterArray = new Student[n];
+        int i = 0;
+        for (Student student : this.groupArr) {
+            if (student != null && student.isSex() && student.getAge() >= 18) {
+                recruterArray[i++] = student;
+            }
+        }
+        return recruterArray;
+    }
 
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
         int i = 1;
-        sortStudentOnGroup();
+        //sortStudentOnGroup();
         for (Student s : groupArr) {
 
             if (s != null) {
