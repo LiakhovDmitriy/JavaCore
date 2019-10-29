@@ -1,5 +1,4 @@
 import java.text.DecimalFormat;
-import java.util.Arrays;
 
 public class Board {
     private Shape[] Board = new Shape[4];

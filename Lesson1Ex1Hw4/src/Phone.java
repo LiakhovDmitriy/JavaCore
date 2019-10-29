@@ -1,45 +1,39 @@
 public class Phone {
-    private long number;
-    private String name;
+    private long numberPhone;
+    private String namePhone;
     private Network network;
 
-    public Phone(long number, String name) {
-        this.number = number;
-        this.name = name;
+    public Phone(long numberPhone, String namePhone, Network network) {
+        this.numberPhone = numberPhone;
+        this.namePhone = namePhone;
+        this.network = network;
     }
-    public Phone(){
+
+    public Phone() {
         super();
     }
 
-    public long getNumber() {
-        return number;
+    public long getNumberPhone() {
+        return numberPhone;
     }
 
-    public void setNumber(long number) {
-        this.number = number;
+    public void setNumberPhone(long numberPhone) {
+        this.numberPhone = numberPhone;
     }
 
-    public String getName() {
-        return name;
+    public String getNamePhone() {
+        return namePhone;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setNamePhone(String namePhone) {
+        this.namePhone = namePhone;
     }
 
     @Override
     public String toString() {
         return "Phone{" +
-                "number=" + number +
-                ", name='" + name + '\'' +
+                "numberPhone=" + numberPhone +
+                ", namePhone='" + namePhone + '\'' +
                 '}';
     }
-
-    public void registerToNetwork(Network network) {
-        this.network = network;
-        if (!this.network.addPhone(this)) {
-            this.network = null;
-        }
-    }
-
 }

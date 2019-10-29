@@ -7,20 +7,19 @@ public class Main {
          * векторного произведения векторов. Создайте несколько объектов этого класса и
          * протестируйте их.
          */
-        Vector vecFirst = new Vector(1, 2, 3);
-        Vector vecSecond = new Vector(4, 5, 6);
+        Vector3d vecFirst = new Vector3d(1, 2, 3);
+        Vector3d vecSecond = new Vector3d(4, 5, 6);
 
-        Vector vecThird = vecFirst.vectorSumma(vecSecond);
+        Vector3d vecThird = vecFirst.vectorSumma(vecSecond);
         System.out.print("The sum of vectors: ");
         vecThird.printOut();
 
         double b = vecFirst.scalar(vecSecond);
         System.out.println("Scalar sum: " + b);
 
-        Vector vecFifth = vecFirst.vecMnog(vecSecond);
+        Vector3d vecFifth = vecFirst.vecMnog(vecSecond);
         System.out.print("Vector sum: ");
         vecFifth.printOut();
-
 
     }
 }
