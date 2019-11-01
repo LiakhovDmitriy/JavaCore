@@ -34,6 +34,7 @@ public class Triangle extends Shape {
     }
 
     public void setC(Point c) {
+
         this.c = c;
     }
 

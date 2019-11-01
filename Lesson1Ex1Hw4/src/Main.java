@@ -9,5 +9,10 @@ public class Main {
          * сообщение об ошибочности набранного номера.
          */
 
+        Network vodafon = new Network();
+        Phone ph1 = new Phone("Iphone", 38050543, vodafon);
+        ph1.registerPhone(vodafon);
+
+        System.out.println(vodafon.toString());
     }
 }
