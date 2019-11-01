@@ -51,7 +51,8 @@
      Shape). При этом они в качестве свойств должны содержать классы Point.
             </a>
         </li>
-            <li><strong>Занятие 2</strong>
+            </li>
+            <li><strong>Занятие 3</strong>
         <ul>
             <li> 3.1<br>
             <a href="/Lesson3Ex1Hw1/src">
